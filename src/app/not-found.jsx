@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const NotFound = () => {
     return (
-        <main className="flex min-h-[calc(100vh-100px)] w-full items-center justify-center bg-[#FFFDF8] px-5 py-16">
+        <main className="flex min-h-[calc(100vh-0px)] w-full items-center justify-center bg-[#FFFDF8] px-5 py-16">
             <section className="mx-auto flex w-full max-w-[700px] flex-col items-center text-center">
 
                 {/* 404 */}

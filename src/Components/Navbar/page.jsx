@@ -85,10 +85,9 @@ const Navbar = () => {
                                     transition-all duration-300 ease-out
                                     hover:-translate-y-[2px]
                                     active:translate-y-[1px]
-                                    ${
-                                        active
-                                            ? `bg-[#EB4124] text-white ${pressedEffect} ring-1 ring-[#EB4124]/20`
-                                            : `bg-[#FFFDF8] text-[#302F2F]/85 ${raisedEffect}
+                                    ${active
+                                        ? `bg-[#EB4124] text-white ${pressedEffect} ring-1 ring-[#EB4124]/20`
+                                        : `bg-[#FFFDF8] text-[#302F2F]/85 ${raisedEffect}
                                                hover:bg-[#FFFDF8] hover:text-[#EB4124]
                                                hover:shadow-[7px_7px_13px_rgba(48,47,47,0.22),-5px_-5px_10px_rgba(255,255,255,1)]`
                                     }
